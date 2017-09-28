@@ -7,6 +7,7 @@ public enum ShipType
 {
 	DD,
 	CA,
+	SS,
 	BB,
 	CV
 }

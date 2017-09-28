@@ -2,7 +2,6 @@ package gui;
 
 import events.AbortEvent;
 import events.ModelListener;
-import events.ViewListener;
 import logic.Game;
 import logic.GameModelListener;
 

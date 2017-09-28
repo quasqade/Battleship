@@ -11,10 +11,18 @@ import java.util.EventObject;
 public class Game
 {
 private ViewListener viewListener;
+private GameBoard friendlyBoard;
+private GameBoard enemyBoard;
+
 	public Game(ViewListener viewListener)
 	{
 		this.viewListener=viewListener;
+		friendlyBoard = new GameBoard(10,10);
+		enemyBoard = new GameBoard(10,10);
+		friendlyBoard.printBoard();
 	}
+
+
 
 	//TODO replace with specific types
 	public void handleGenericEvent(EventObject ev)
